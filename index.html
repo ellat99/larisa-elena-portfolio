@@ -1,142 +1,723 @@
 <!doctype html>
-<html lang="ro">
+
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Portofoliu — Web Developer & Designer</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Transforming Vision into Impact — Talmaciu Larisa-Elena</title>
     <meta
+      content="Portfolio of Talmaciu Larisa-Elena: UX/UI design, web development and creator marketing projects."
       name="description"
-      content="Portofoliu de web design și dezvoltare: Best Movers, The Factory Agency, Urban Caves."
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Inter:wght@300;400;500;600;700;800&amp;display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link href="images/favicon.png" rel="icon" type="image/png" />
+    <link href="style.css" rel="stylesheet" />
   </head>
   <body>
-    <header class="nav">
-      <nav class="nav-inner">
-        <a href="#top" class="logo"><span class="dot">●</span>CraftCode</a>
-        <div class="nav-links">
-          <a href="#work">Projects</a>
-          <a href="#about">About me</a>
-          <a href="#contact">Contact</a>
-        </div>
-        <a href="#contact" class="btn btn-primary btn-sm">Let's talk</a>
-      </nav>
-    </header>
-
-    <section id="top" class="hero">
-      <div class="container">
-        <div class="eyebrow">Portfolio · 2026</div>
-        <h1 class="display">
-          I create modern digital experiences through
-          <span class="accent-italic"> UX/UI </span> and web development.
-        </h1>
-        <p class="lead">
-          UX/UI designer & web developer crafting digital experiences from
-          concept to implementation.
-        </p>
-        <div class="cta-row">
-          <a href="#work" class="btn btn-primary">See the projects →</a>
-          <a href="#about" class="link-muted">More about me</a>
-        </div>
-      </div>
-
-      <div class="marquee">
-        <div class="marquee-track">
-          <span>Web Design</span><span class="star">✦</span>
-          <span>Frontend Development</span><span class="star">✦</span>
-          <span>UI / UX</span><span class="star">✦</span> <span>Web Design</span
-          ><span class="star">✦</span> <span>Frontend Development</span
-          ><span class="star">✦</span> <span>UI / UX</span
-          ><span class="star">✦</span>
-        </div>
-      </div>
-    </section>
-
-    <section id="work" class="section">
-      <div class="container">
-        <div class="section-head">
-          <div>
-            <div class="eyebrow">Selected works</div>
-            <h2 class="h2">Recent projects.</h2>
-          </div>
-        </div>
-
-        <div class="projects" id="projects"></div>
-      </div>
-    </section>
-
-    <section id="about" class="section bordered">
-      <div class="container grid-12">
-        <div class="col-5">
-          <div class="eyebrow">About me</div>
-          <h2 class="h2">Designer and developer with a passion for detail.</h2>
-        </div>
-        <div class="col-7">
-          <p class="muted lg">
-            I work in web design and front-end development, helping brands turn
-            their ideas into robust digital products. I enjoy combining
-            strategic thinking with visual execution—every pixel, every line of
-            code matters.
-          </p>
-          <p class="muted lg">
-            I use modern technologies and user-centered design methodologies. I
-            launch projects from scratch, optimize performance, and collaborate
-            closely with marketing and product teams.
-          </p>
-
-          <div class="stats">
-            <div>
-              <div class="k">2+</div>
-              <div class="v">Years of experience</div>
-            </div>
-            <div>
-              <div class="k">15+</div>
-              <div class="v">Completed Projects</div>
-            </div>
-            <div>
-              <div class="k">100%</div>
-              <div class="v">Mobile-first</div>
-            </div>
-          </div>
-
-          <div class="tech">
-            <div class="eyebrow light">Technologies</div>
-            <div class="chips" id="tech-chips"></div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="section bordered center">
-      <div class="container">
-        <div class="eyebrow">Contact</div>
-        <h2 class="display sm">
-          Let's build<br />
-          <span class="accent-italic">something memorable.</span>
-        </h2>
-        <div class="cta-row center">
-          <a href="mailto:elenatalmaciu15@gmail.com" class="btn btn-primary lg"
-            >elenatalmaciu15@gmail.com</a
-          >
+    <main class="min-h-screen bg-background">
+      <section class="relative overflow-hidden bg-cream">
+        <header
+          class="mx-auto flex max-w-6xl items-center justify-between px-6 pt-8 md:pt-10"
+        >
+          <nav class="flex items-center gap-6 md:ml-32 md:gap-12">
+            <a
+              class="text-[11px] font-bold uppercase tracking-tight text-ink hover:text-cobalt md:text-xs"
+              href="#about"
+              >About me</a
+            ><a
+              class="text-[11px] font-bold uppercase tracking-tight text-ink hover:text-cobalt md:text-xs"
+              href="#projects"
+              >Projects</a
+            ><a
+              class="text-[11px] font-bold uppercase tracking-tight text-ink hover:text-cobalt md:text-xs"
+              href="#contact"
+              >Contact me</a
+            >
+          </nav>
           <a
-            href="linkedin.com/in/elena-talmaciu-73546728b/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BYjDaAK%2B0RIGbY%2FDIN3taUg%3D%3D"
-            class="btn btn-ghost lg"
-            >LinkedIn ↗</a
+            class="items-center justify-center gap-2 rounded-full border-[1.5px] border-ink font-sans font-bold uppercase tracking-tight transition-transform duration-200 hover:-translate-y-0.5 active:translate-y-0 bg-background text-ink shadow-pop h-8 px-4 text-[10px] hidden sm:inline-flex"
+            href="#projects"
+            >Our events<svg
+              aria-hidden="true"
+              class="lucide lucide-arrow-right size-4"
+              fill="none"
+              height="24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2.2"
+              viewbox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M5 12h14"></path>
+              <path d="m12 5 7 7-7 7"></path></svg
+          ></a>
+        </header>
+        <div
+          class="relative mx-auto max-w-6xl px-6 pb-28 pt-16 md:pb-24 md:pt-24"
+        >
+          <div
+            class="relative z-10 text-center font-display uppercase leading-[0.98] tracking-tight"
           >
+            <h1 class="text-[clamp(2.75rem,8vw,5.5rem)]">
+              <span class="inline-flex items-center gap-4 text-ink"
+                >Transforming<img
+                  alt=""
+                  class="h-[0.7em] w-auto float-slow"
+                  height="256"
+                  src="images/flame.png"
+                  width="186" /></span
+              ><br /><span class="inline-flex items-center gap-3"
+                ><span class="text-tangerine">Vision into</span
+                ><img
+                  alt=""
+                  class="h-[0.6em] w-auto"
+                  height="256"
+                  src="images/fist-icon.png"
+                  width="237"
+                /><span class="text-cobalt">Impact</span></span
+              ><br /><span class="text-ink">Effectively</span>
+            </h1>
+            <p
+              class="mx-auto mt-6 max-w-md font-sans text-xs normal-case leading-relaxed tracking-normal text-ink md:text-[13px]"
+            >
+              We help brands find their perfect creator match — and vice
+              versa.<br />One platform. Zero chaos. Full-service, end-to-end
+              marketing magic.
+            </p>
+            <div
+              class="mt-7 flex flex-wrap items-center justify-center gap-3 font-sans"
+            >
+              <a
+                class="inline-flex items-center justify-center gap-2 rounded-full border-[1.5px] border-ink font-sans font-bold uppercase tracking-tight transition-transform duration-200 hover:-translate-y-0.5 active:translate-y-0 bg-cobalt text-primary-foreground shadow-pill h-11 px-5 text-xs"
+                href="#projects"
+                >I'm a brand<svg
+                  aria-hidden="true"
+                  class="lucide lucide-arrow-right size-4"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2.2"
+                  viewbox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M5 12h14"></path>
+                  <path d="m12 5 7 7-7 7"></path></svg></a
+              ><a
+                class="inline-flex items-center justify-center gap-2 rounded-full border-[1.5px] font-sans font-bold uppercase tracking-tight transition-transform duration-200 hover:-translate-y-0.5 active:translate-y-0 bg-sun text-ink shadow-pill border-sun h-11 px-5 text-xs"
+                href="#contact"
+                >I'm a creator<svg
+                  aria-hidden="true"
+                  class="lucide lucide-arrow-right size-4"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2.2"
+                  viewbox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M5 12h14"></path>
+                  <path d="m12 5 7 7-7 7"></path></svg
+              ></a>
+            </div>
+          </div>
+          <div
+            class="pointer-events-none absolute -left-4 top-[250px] hidden h-[480px] w-[360px] lg:block xl:-left-6"
+          >
+            <img
+              alt=""
+              class="absolute left-[110px] top-0 w-24 float-slow"
+              height="256"
+              src="images/hand-icon.png"
+              width="243"
+            />
+            <div
+              class="flex h-12 items-center justify-center rounded-full font-sans text-base font-medium shadow-pill bg-lemon text-ink rotate-[14deg] w-44 absolute left-[0px] top-[140px]"
+            >
+              Canva
+            </div>
+            <div
+              class="flex h-12 items-center justify-center rounded-full font-sans text-base font-medium shadow-pill bg-periwinkle text-ink rotate-[26deg] w-44 absolute left-[160px] top-[112px]"
+            >
+              Figma
+            </div>
+            <div
+              class="flex h-12 items-center justify-center rounded-full font-sans text-base font-medium shadow-pill bg-amber text-ink -rotate-[10deg] w-44 absolute left-[80px] top-[218px]"
+            >
+              Wordpress
+            </div>
+            <div
+              class="flex h-12 items-center justify-center rounded-full font-sans text-base font-medium shadow-pill bg-amber text-ink rotate-[14deg] w-44 absolute left-[160px] top-[300px]"
+            >
+              Magento
+            </div>
+            <div
+              class="flex h-12 items-center justify-center rounded-full font-sans text-base font-medium shadow-pill bg-lemon text-ink rotate-[14deg] w-44 absolute left-[30px] top-[318px]"
+            >
+              HTML
+            </div>
+            <div
+              class="flex h-12 items-center justify-center rounded-full font-sans text-base font-medium shadow-pill bg-periwinkle text-ink -rotate-[4deg] w-44 absolute left-[160px] top-[392px]"
+            >
+              CSS
+            </div>
+            <div
+              class="flex h-12 items-center justify-center rounded-full font-sans text-base font-medium shadow-pill bg-ink text-primary-foreground rotate-[34deg] w-40 absolute left-[6px] top-[396px]"
+            >
+              JavaScript
+            </div>
+          </div>
+          <div class="mt-12 flex flex-wrap justify-center gap-3 lg:hidden">
+            <div
+              class="rounded-full px-5 py-2 text-sm font-medium shadow-pill bg-lemon text-ink"
+            >
+              Canva
+            </div>
+            <div
+              class="rounded-full px-5 py-2 text-sm font-medium shadow-pill bg-periwinkle text-ink"
+            >
+              Figma
+            </div>
+            <div
+              class="rounded-full px-5 py-2 text-sm font-medium shadow-pill bg-amber text-ink"
+            >
+              Wordpress
+            </div>
+            <div
+              class="rounded-full px-5 py-2 text-sm font-medium shadow-pill bg-amber text-ink"
+            >
+              Magento
+            </div>
+            <div
+              class="rounded-full px-5 py-2 text-sm font-medium shadow-pill bg-lemon text-ink"
+            >
+              HTML
+            </div>
+            <div
+              class="rounded-full px-5 py-2 text-sm font-medium shadow-pill bg-periwinkle text-ink"
+            >
+              CSS
+            </div>
+            <div
+              class="rounded-full px-5 py-2 text-sm font-medium shadow-pill bg-ink text-primary-foreground"
+            >
+              JavaScript
+            </div>
+          </div>
+          <div class="mt-16 grid items-end gap-10 lg:mt-56 lg:grid-cols-2">
+            <p
+              class="max-w-sm font-sans text-xl font-light uppercase leading-tight text-ink-soft md:text-2xl lg:pl-10"
+            >
+              You bring the brief.<br />We'll bring the match — with ROI that
+              speaks for itself.
+            </p>
+            <div class="lg:justify-self-end">
+              <div class="grid grid-cols-2 gap-4 sm:w-[400px]">
+                <div
+                  class="rounded-2xl bg-cobalt p-4 pb-6 text-primary-foreground shadow-tile"
+                >
+                  <h3 class="text-sm font-extrabold uppercase leading-snug">
+                    70% time saved
+                  </h3>
+                  <p class="mt-2 text-[11px] leading-snug opacity-90">
+                    Because your time is better spent creating, not
+                    micro-managing.
+                  </p>
+                </div>
+                <div class="rounded-2xl bg-sun p-4 pb-6 text-ink shadow-tile">
+                  <h3 class="text-sm font-extrabold uppercase leading-snug">
+                    100% Hype-to-payout
+                  </h3>
+                  <p class="mt-2 text-[11px] leading-snug">
+                    Managed on one platform. You bring the show.
+                  </p>
+                </div>
+              </div>
+              <p
+                class="mt-4 max-w-[400px] text-[11px] leading-snug text-ink-soft"
+              >
+                Turning brands' love into strategic campaigns, creator content
+                and results-focused marketing.
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
-
-    <footer class="footer">
-      <div>© <span id="year"></span> · Personal Portfolio</div>
-    </footer>
-
+        <svg
+          aria-hidden="true"
+          class="absolute bottom-0 left-1/2 h-20 w-40 -translate-x-1/2 fill-background md:h-24 md:w-48"
+          preserveaspectratio="none"
+          viewbox="0 0 100 50"
+        >
+          <path d="M0 50 Q50 50 50 0 Q50 50 100 50 Z"></path>
+        </svg>
+      </section>
+      <section class="mx-auto max-w-6xl px-6 pt-20 md:pt-24" id="projects">
+        <div class="grid gap-8 md:grid-cols-[1fr_auto] md:items-end">
+          <div>
+            <p class="font-display text-sm uppercase tracking-wide text-coral">
+              Selected works
+            </p>
+            <h2
+              class="mt-3 font-display text-5xl uppercase leading-none tracking-tight text-ink md:text-6xl"
+            >
+              Recent project
+            </h2>
+          </div>
+          <div
+            class="max-w-[300px] space-y-4 text-xs leading-relaxed text-ink-soft md:pr-6"
+          >
+            <p>
+              We centralize everything so creators can create — and brands can
+              focus on growth.
+            </p>
+            <p>Discovery. Contracts. Campaigns. Payouts. Done.</p>
+          </div>
+        </div>
+        <div class="mt-20 space-y-20 md:mt-28 md:space-y-16">
+          <article
+            class="grid items-center gap-6 md:grid-cols-[1fr_auto_1fr] md:gap-10"
+          >
+            <div class="text-left md:text-right">
+              <h3
+                class="font-display text-2xl leading-tight tracking-tight text-ink"
+              >
+                <span class="block">Government Services</span
+                ><span class="block">Mobile App UI</span>
+              </h3>
+              <p
+                class="mt-3 text-[11px] leading-relaxed text-ink-soft md:ml-auto md:max-w-[240px]"
+              >
+                A website for a moving company in Romania. Focus on conversions,
+                quick quote request forms, and mobile performance.
+              </p>
+            </div>
+            <div
+              class="w-full overflow-hidden rounded-xl shadow-pop md:w-[310px] aspect-[4/3] max-w-[240px] md:justify-self-center"
+            >
+              <img
+                alt="Avansis Mobile project preview"
+                class="h-full w-full object-cover transition-transform duration-500 hover:scale-105"
+                height="768"
+                loading="lazy"
+                src="images/project-avansis.jpg"
+                width="1024"
+              />
+            </div>
+            <div class="flex flex-col items-start gap-5 md:pl-6">
+              <p
+                class="font-display text-2xl uppercase tracking-tight text-ink [&amp;:first-letter]:uppercase"
+              >
+                Avansis Mobile
+              </p>
+              <a
+                class="inline-flex items-center justify-center gap-2 rounded-full border-[1.5px] border-ink font-sans font-bold uppercase tracking-tight transition-transform duration-200 hover:-translate-y-0.5 active:translate-y-0 bg-sun text-ink shadow-pill h-14 px-8 text-sm"
+                href="https://www.behance.net/gallery/257030929/Government-Services-Mobile-App-UI"
+                >Visit<svg
+                  aria-hidden="true"
+                  class="lucide lucide-arrow-right size-4"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2.2"
+                  viewbox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M5 12h14"></path>
+                  <path d="m12 5 7 7-7 7"></path></svg
+              ></a>
+            </div>
+          </article>
+          <article
+            class="grid items-center gap-6 md:grid-cols-[1fr_auto_1fr] md:gap-10"
+          >
+            <div class="text-left md:text-right">
+              <h3
+                class="font-display text-2xl leading-tight tracking-tight text-ink"
+              >
+                <span class="block">Digital public services</span>
+              </h3>
+              <p
+                class="mt-3 text-[11px] leading-relaxed text-ink-soft md:ml-auto md:max-w-[240px]"
+              >
+                A website for a moving company in Romania. Focus on conversions,
+                quick quote request forms, and mobile performance.
+              </p>
+            </div>
+            <div
+              class="w-full overflow-hidden rounded-xl shadow-pop md:w-[310px] aspect-[16/10] max-w-[310px] md:justify-self-center"
+            >
+              <img
+                alt="Best Movers project preview"
+                class="h-full w-full object-cover transition-transform duration-500 hover:scale-105"
+                height="640"
+                loading="lazy"
+                src="images/project-selfpoint.jpg"
+                width="1024"
+              />
+            </div>
+            <div class="flex flex-col items-start gap-5 md:pl-6">
+              <p
+                class="font-display text-2xl uppercase tracking-tight text-ink [&amp;:first-letter]:uppercase"
+              >
+                Selfpoint
+              </p>
+              <a
+                class="inline-flex items-center justify-center gap-2 rounded-full border-[1.5px] border-ink font-sans font-bold uppercase tracking-tight transition-transform duration-200 hover:-translate-y-0.5 active:translate-y-0 bg-sun text-ink shadow-pill h-14 px-8 text-sm"
+                href="https://www.behance.net/gallery/257030185/Servicii-publice-digitale"
+                >Visit<svg
+                  aria-hidden="true"
+                  class="lucide lucide-arrow-right size-4"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2.2"
+                  viewbox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M5 12h14"></path>
+                  <path d="m12 5 7 7-7 7"></path></svg
+              ></a>
+            </div>
+          </article>
+          <article
+            class="grid items-center gap-6 md:grid-cols-[1fr_auto_1fr] md:gap-10"
+          >
+            <div class="text-left md:text-right">
+              <h3
+                class="font-display text-2xl leading-tight tracking-tight text-ink"
+              >
+                <span class="block">Mobile App</span>
+              </h3>
+              <p
+                class="mt-3 text-[11px] leading-relaxed text-ink-soft md:ml-auto md:max-w-[240px]"
+              >
+                Find your balance, reconnect with yourself, and embrace a
+                healthier lifestyle through mindful movement and relaxation.
+              </p>
+            </div>
+            <div
+              class="w-full overflow-hidden rounded-xl shadow-pop md:w-[310px] aspect-[16/10] max-w-[310px] md:justify-self-center"
+            >
+              <img
+                alt="Selfpoint project preview"
+                class="h-full w-full object-cover transition-transform duration-500 hover:scale-105"
+                height="640"
+                loading="lazy"
+                src="images/project-yogatime.jpg"
+                width="1024"
+              />
+            </div>
+            <div class="flex flex-col items-start gap-5 md:pl-6">
+              <p
+                class="font-display text-2xl uppercase tracking-tight text-ink [&amp;:first-letter]:uppercase"
+              >
+                YOGA TIME
+              </p>
+              <a
+                class="inline-flex items-center justify-center gap-2 rounded-full border-[1.5px] border-ink font-sans font-bold uppercase tracking-tight transition-transform duration-200 hover:-translate-y-0.5 active:translate-y-0 bg-sun text-ink shadow-pill h-14 px-8 text-sm"
+                href="https://www.behance.net/gallery/249067327/YOGA-TIME"
+                >Visit<svg
+                  aria-hidden="true"
+                  class="lucide lucide-arrow-right size-4"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2.2"
+                  viewbox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M5 12h14"></path>
+                  <path d="m12 5 7 7-7 7"></path></svg
+              ></a>
+            </div>
+          </article>
+          <article
+            class="grid items-center gap-6 md:grid-cols-[1fr_auto_1fr] md:gap-10 extra-project"
+            hidden=""
+          >
+            <div class="text-left md:text-right">
+              <h3
+                class="font-display text-2xl leading-tight tracking-tight text-ink"
+              >
+                <span class="block">Website Standard UX/UI & Development</span>
+              </h3>
+              <p
+                class="mt-3 text-[11px] leading-relaxed text-ink-soft md:ml-auto md:max-w-[240px]"
+              >
+                A website for a moving company in Romania. Focus on conversions,
+                quick quote request forms, and mobile performance.
+              </p>
+            </div>
+            <div
+              class="w-full overflow-hidden rounded-xl shadow-pop md:w-[310px] aspect-[16/10] max-w-[310px] md:justify-self-center"
+            >
+              <img
+                alt="Lorem Ipsum project preview"
+                class="h-full w-full object-cover transition-transform duration-500 hover:scale-105"
+                height="640"
+                loading="lazy"
+                src="images/project-bestmovers.jpg"
+                width="1024"
+              />
+            </div>
+            <div class="flex flex-col items-start gap-5 md:pl-6">
+              <p
+                class="font-display text-2xl uppercase tracking-tight text-ink [&amp;:first-letter]:uppercase"
+              >
+                Best Movers
+              </p>
+              <a
+                class="inline-flex items-center justify-center gap-2 rounded-full border-[1.5px] border-ink font-sans font-bold uppercase tracking-tight transition-transform duration-200 hover:-translate-y-0.5 active:translate-y-0 bg-sun text-ink shadow-pill h-14 px-8 text-sm"
+                href="https://www.behance.net/gallery/250151913/Bestmovers"
+                >Visit<svg
+                  aria-hidden="true"
+                  class="lucide lucide-arrow-right size-4"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2.2"
+                  viewbox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M5 12h14"></path>
+                  <path d="m12 5 7 7-7 7"></path></svg
+              ></a>
+            </div>
+          </article>
+        </div>
+        <div class="mt-14 flex justify-center">
+          <a
+            class="inline-flex items-center justify-center gap-2 rounded-full border-[1.5px] border-ink font-sans font-bold uppercase tracking-tight transition-transform duration-200 hover:-translate-y-0.5 active:translate-y-0 bg-background text-ink shadow-pop h-8 px-4 text-[10px]"
+            href="#projects"
+            id="show-more"
+            >Show more<svg
+              aria-hidden="true"
+              class="lucide lucide-arrow-down size-4"
+              fill="none"
+              height="24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewbox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M12 5v14"></path>
+              <path d="m19 12-7 7-7-7"></path></svg
+          ></a>
+        </div>
+      </section>
+      <section class="mx-auto max-w-6xl px-6 pb-24 pt-6" id="about">
+        <p class="font-display text-sm text-coral">About me</p>
+        <h2
+          class="relative mt-3 inline-block font-display text-5xl uppercase leading-none tracking-tight text-ink md:text-6xl"
+        >
+          Recent project<svg
+            aria-hidden="true"
+            class="absolute -bottom-8 left-1/2 w-28 -translate-x-1/3 text-ink"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-width="1.4"
+            viewbox="0 0 120 30"
+          >
+            <path d="M4 22C30 4 75 2 108 20"></path>
+            <path d="M98 12l10 8-12 3"></path>
+          </svg>
+        </h2>
+        <div class="mt-14 grid gap-5 md:grid-cols-3">
+          <article
+            class="rounded-[28px] border-[1.5px] border-ink bg-paper px-6 pb-8 pt-6 transition-transform duration-300 hover:-translate-y-1"
+          >
+            <div class="flex items-center gap-4 text-ink">
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-sparkles size-9"
+                fill="none"
+                height="24"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.4"
+                viewbox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"
+                ></path>
+                <path d="M20 2v4"></path>
+                <path d="M22 4h-4"></path>
+                <circle cx="4" cy="20" r="2"></circle>
+              </svg>
+              <h3 class="text-xl font-light leading-tight">
+                Research +<br />Strategy
+              </h3>
+            </div>
+            <p class="mt-4 text-[13px] font-light leading-snug text-ink-soft">
+              I collaborate with stakeholders and subject matter experts to
+              understand user needs, define product goals, and contribute to
+              product strategy and roadmaps.
+            </p>
+          </article>
+          <article
+            class="rounded-[28px] border-[1.5px] border-ink bg-paper px-6 pb-8 pt-6 transition-transform duration-300 hover:-translate-y-1"
+          >
+            <div class="flex items-center gap-4 text-ink">
+              <svg
+                class="size-8"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                viewbox="0 0 32 28"
+              >
+                <path d="M2 27V10a6 6 0 0 1 12 0v17H2Z"></path>
+                <path d="M18 27V10a6 6 0 0 1 12 0v17H18Z"></path>
+                <path d="M2 27V12a4 4 0 0 1 4-4" fill="currentColor"></path>
+                <path d="M18 27V12a4 4 0 0 1 4-4" fill="currentColor"></path>
+              </svg>
+              <h3 class="text-xl font-light leading-tight">
+                Design +<br />Implementation
+              </h3>
+            </div>
+            <p class="mt-4 text-[13px] font-light leading-snug text-ink-soft">
+              I turn research and insights into meaningful, user-centered design
+              solutions. I focus on creating feasible products, improving
+              workflows, and fostering collaboration across teams.
+            </p>
+          </article>
+          <article
+            class="rounded-[28px] border-[1.5px] border-ink bg-paper px-6 pb-8 pt-6 transition-transform duration-300 hover:-translate-y-1"
+          >
+            <div class="flex items-center gap-4 text-ink">
+              <svg
+                aria-hidden="true"
+                class="lucide lucide-compass size-8"
+                fill="none"
+                height="24"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.4"
+                viewbox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="12" cy="12" r="10"></circle>
+                <path
+                  d="m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z"
+                ></path>
+              </svg>
+              <h3 class="text-xl font-light leading-tight">
+                Facilitation +<br />Mentoring
+              </h3>
+            </div>
+            <p class="mt-4 text-[13px] font-light leading-snug text-ink-soft">
+              I facilitate workshops and conversations that bring diverse
+              perspectives together to drive alignment and positive change. I
+              also mentor junior designers and support students in UX bootcamps.
+            </p>
+          </article>
+        </div>
+        <svg
+          aria-hidden="true"
+          class="mx-auto mt-6 w-48 text-ink"
+          fill="none"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-width="1.2"
+          viewbox="0 0 200 80"
+        >
+          <path
+            d="M4 6c6 40 50 60 74 40 18-15 2-44-14-36-18 9-6 44 30 40 34-4 60-26 76-40"
+          ></path>
+          <path d="M160 8l12 2-4 12"></path>
+        </svg>
+      </section>
+      <footer class="bg-moss text-moss-foreground" id="contact">
+        <div class="mx-auto max-w-6xl px-6 pb-10 pt-16">
+          <p class="font-display text-sm uppercase text-coral">Contact</p>
+          <div
+            class="mt-2 flex flex-col gap-8 md:flex-row md:items-center md:gap-12"
+          >
+            <h2
+              class="font-display text-6xl leading-none tracking-tight text-sun md:text-7xl"
+            >
+              Let's connect
+            </h2>
+            <div class="flex flex-wrap gap-4 md:gap-8">
+              <a
+                class="inline-flex items-center justify-center gap-2 rounded-full border-[1.5px] font-sans font-bold tracking-tight transition-transform duration-200 hover:-translate-y-0.5 active:translate-y-0 bg-tangerine text-primary-foreground shadow-pill normal-case h-11 px-5 text-xs border-ink"
+                href="mailto:elenatalmaciu15@gmail.com"
+                >elenatalmaciu15@gmail.com<svg
+                  aria-hidden="true"
+                  class="lucide lucide-arrow-right size-4"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2.2"
+                  viewbox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M5 12h14"></path>
+                  <path d="m12 5 7 7-7 7"></path></svg></a
+              ><a
+                class="inline-flex items-center justify-center gap-2 rounded-full border-[1.5px] font-sans font-bold tracking-tight transition-transform duration-200 hover:-translate-y-0.5 active:translate-y-0 bg-tangerine text-primary-foreground shadow-pill normal-case h-11 text-xs border-ink px-7"
+                href="https://www.linkedin.com"
+                rel="noreferrer"
+                target="_blank"
+                >Linkedin<svg
+                  aria-hidden="true"
+                  class="lucide lucide-arrow-right size-4"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2.2"
+                  viewbox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M5 12h14"></path>
+                  <path d="m12 5 7 7-7 7"></path></svg
+              ></a>
+            </div>
+          </div>
+          <p class="mt-20 text-center text-xs opacity-90">
+            © 2026 Talmaciu Larisa-Elena — Personal Portfolio.
+          </p>
+        </div>
+      </footer>
+    </main>
     <script src="script.js"></script>
   </body>
 </html>
