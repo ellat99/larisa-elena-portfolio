@@ -1013,4 +1013,17 @@
   .font-size-38 {
     font-size: 38px;
   }
+   .mobile-center {
+    text-align: center;
+  }
+
+  .mobile-center-items {
+    align-items: center;
+  }
+
+  .mobile-center-block {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 }
