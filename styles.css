@@ -1008,3 +1008,9 @@
   0%, 70%, 100% { opacity: 1; }
   20%, 50% { opacity: 0; }
 }.extra-project[hidden]{display:none !important}
+
+@media (max-width: 767px) {
+  .font-size-38 {
+    font-size: 38px;
+  }
+}
